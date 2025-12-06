@@ -8,7 +8,7 @@ This project implements an **interactive educational robot powered by local AI**
 * **Graphical mouth animation** using Pygame
 * **A complete performance metrics system**
 
-Everything runs on **conventional hardware**, without GPUs, and without relying on cloud-based LLM services.
+Everything runs on **conventional hardware**, without GPUs, and without relying on cloud-based SLM services.
 
 ---
 
@@ -16,7 +16,7 @@ Everything runs on **conventional hardware**, without GPUs, and without relying 
 
 * 🎤 **English speech recognition** with automatic noise adjustment
 
-* 🧠 **Local LLM processing** using Phi-3 Mini
+* 🧠 **Local SLM processing** using Phi-3 Mini
 
 * 🔊 **English speech synthesis** with automatic voice selection
 
@@ -25,10 +25,10 @@ Everything runs on **conventional hardware**, without GPUs, and without relying 
 * 📊 **Performance metrics**, including:
 
   * Average speech recognition time
-  * Average LLM processing time
+  * Average  processing time
   * Speech synthesis time
   * Number of interactions
-  * Recognition and LLM failure counts
+  * Recognition and  failure counts
 
 * 📑 Automatic generation of `robot_metrics.json`
 
@@ -96,7 +96,7 @@ python robot.py
 You should see:
 
 ```
-🤖 ENGLISH LLM ROBOT WITH PERFORMANCE METRICS
+🤖 ENGLISH  ROBOT WITH PERFORMANCE METRICS
 Make sure Ollama is running...
 Say 'report' to display statistics
 Say 'voices' to list TTS voices
@@ -128,11 +128,11 @@ Example:
 ```json
 {
   "total_interactions": 12,
-  "total_llm_time": 17.52,
+  "total__time": 17.52,
   "total_recognition_time": 9.33,
   "total_speech_time": 14.22,
   "recognition_errors": 2,
-  "llm_errors": 1
+  "_errors": 1
 }
 ```
 
@@ -159,7 +159,7 @@ Microphone → Speech Recognition → Text
 This project demonstrates that it is possible to:
 
 * Use **local AI** in schools
-* Run LLMs on low-cost hardware
+* Run s on low-cost hardware
 * Enable real-time voice interaction
 * Avoid dependency on cloud services
 * Support robotics, STEM, and computer science education
